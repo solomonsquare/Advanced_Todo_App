@@ -18,4 +18,7 @@ TodoItem.propTypes = {
     id: PropTypes.array.isRequired,
     title: PropTypes.func.isRequired,
     completed: PropTypes.func.isRequired,
-  };
+    toggleTodo: PropTypes.func.isRequired,
+    deleteTodo: PropTypes.func.isRequired,
+
+  }

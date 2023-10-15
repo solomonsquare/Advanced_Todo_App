@@ -1,5 +1,6 @@
 import { useState } from "react"
 // import "./styles.css"
+import PropTypes from 'prop-types'
 
 
 export function NewTodoForm({addTodo}){
@@ -23,5 +24,11 @@ export function NewTodoForm({addTodo}){
     </div>
     <button className='btn'>Add</button> 
   </form>
+}
+
+NewTodoForm.propTypes = {
+
+  addTodo: PropTypes.func.isRequired,
+
 }
 
