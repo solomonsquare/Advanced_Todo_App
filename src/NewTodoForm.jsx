@@ -2,7 +2,7 @@ import { useState } from "react"
 // import "./styles.css"
 
 
-export function NewTodoForm(addTodo){
+export function NewTodoForm({addTodo}){
     
     const [newItem, setNewItem] = useState("")
     //const [todos, setTodo] = useState([])
